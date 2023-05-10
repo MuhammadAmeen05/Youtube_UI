@@ -240,8 +240,11 @@ span {
   font-size: 0.75rem;
 } 
 @media (max-width: 768px) {
-    .leftContainer {
-      display: none;
+    .youtubeText{
+        display: none;
+    }
+    .hamburger{
+        display: none;
     }
     .youtubelogo {
       margin-left: 0;
@@ -263,10 +266,7 @@ span {
       margin-right: 0;
     }
     .mic {
-      margin-right: 1rem;
-    }
-    .profile {
-      display: none;
+    display: none;
     }
     .Tabs{
         display: none;
